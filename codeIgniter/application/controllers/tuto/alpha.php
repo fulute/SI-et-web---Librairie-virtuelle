@@ -3,7 +3,7 @@
 class Alpha extends CI_Controller
 {
 	public function accueil()
-	{$this->load->
+	{
 		$data = array();
 
 		//$this->load->library('nom_de_la_biblioth�que');
