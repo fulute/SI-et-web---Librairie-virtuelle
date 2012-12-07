@@ -1,0 +1,254 @@
+/*** Structuration de la page ***/
+
+body {
+	background-color: #FFF;
+	font-family: Verdana,Helvetica,sans-serif;
+	color: #333;
+	font-size: 12px;
+	/*background-image: url(../images/tartan.png);*/
+	background-color: yellow;
+}
+
+#page {
+	height: 920px;
+	width: 1000px;
+	margin: 0 auto;
+	top: 0px;
+	left: 0px;
+}
+
+#bandeau {
+	position: absolute;
+	height: 146px;
+	width: 1000px;
+	top: 0px;
+	background-color: #000;
+}
+
+#bandeau_gauche {
+	float: left;
+	width: 199px;
+}
+
+#bandeau_centre {
+	float: left;
+	width: 490px;
+	left: 194px;
+}
+
+#mon_compte {
+	float: left;
+	width: 155px;
+	padding: 5px 0px 5px 0px;
+}
+
+#panier {
+	float: right;
+	width: 155px;
+	padding: 5px 0px 5px 0px;
+}
+
+#mon_compte a, #panier a {
+	text-decoration: none;
+	color: #F7931D;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#mon_compte img, #panier img {
+	vertical-align: middle;
+	padding-right: 10px;
+}
+
+#menu_principal {
+	position: absolute;
+	top: 146px;
+	height: 50px;
+	width: 1000px;
+	background-color: #FFF;
+}
+
+#principal {
+	margin-top:196px;
+	min-height: 654px;
+	width: 1000px;
+	background-color: #FFF;
+}
+
+#menu_gauche {
+	position: absolute;
+	float: left;
+	top: 196px;
+	width: 200px;
+	background-color: #FFF;	
+}
+
+#contenu {
+	margin-top:196px;
+	margin-left: 199px;
+	min-height: 654px;
+	width: 800px;
+	background-color: #FFF;
+}
+
+/* Extra Info Boxes on FOoter */
+#scontent {
+	position: relative;
+	height: 100px;
+	width: 975px;
+	
+	background: #E8E8FF;
+	border-top: 2px solid #6C4D93;
+	margin:0;
+	padding:0 0 25px 25px; /*0 0 25px 100px*/
+	font-size: 0.9em;
+}
+#scontent #info1 {
+	width: 30%;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+#scontent #info1 h2, #scontent #info2 h2, #scontent #info3 h2 {
+	padding: 0 0 3px 0;
+	margin: 20px 0 10px 0;
+	font-size: 1.4em;
+	font-weight: normal;
+	/*color: #ffffcc;*/
+	border-bottom: 1px dotted #000;
+}
+#scontent #info2 {
+	width: 30%;
+	float: left;
+	padding:0;
+	margin: 0 0 0 35px;
+}
+#scontent #info3{
+	width: 30%;
+	float: left;
+	margin: 0 0 0 35px;
+}
+/*#scontent #info3 p { color:#fff; }*/
+#scontent #info1 ul, #scontent #info2 ul, #scontent #info3 ul {
+	padding:0;
+	margin: 0 0 0 10px;
+	list-style: none;
+}
+#scontent #info1 ul li, #scontent #info3 ul li {
+	background: url(../img/news-icon.gif) 0 5px no-repeat;
+	padding: 0 0 3px 17px;
+}
+#scontent #info2 ul li {
+	background: url(../img/bubble.gif) 0 4px no-repeat;
+	padding: 0 0 2px 17px;
+}
+#scontent #info2 ul li a { display: block; }
+
+
+#footer {
+	height: 45px;
+	width: 1000px;
+	background-color: #E7E7E7; /*gris*/
+
+	margin:0;
+	padding:0;
+	border-top: 1px solid #6C4D93;
+	/*clear: both;*/
+	font-size: 0.8em;
+	background: #19CEC5;
+	/*color: #A1DCEA;*/
+}
+#footer p {
+	padding: 15px 0 15px 0;
+	text-align: center;
+	margin:0;
+	border-top: 1px solid #6C4D93;
+}
+/*#footer a { color: #fff; }*/
+
+
+.red {
+	color: red;
+}
+
+ul,ol { list-style:none }
+
+
+a.top-btn {
+	position: relative;
+	bottom: 25px;
+	left: 90%;
+	display: block;
+	width: 50px;
+	/*text-indent: -3000px;*/
+	/*background: url(../img/top.gif) no-repeat;*/
+}
+a.top-btn:hover { 
+	/*background: url(../img/tophover.gif) no-repeat;*/
+	text-decoration: none;
+}
+
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/*-------------
+SEARCH
+-------------*/
+
+#searchForm fieldset {
+    width:240px;
+    position:relative;
+    display:block;
+}
+
+div.input {
+    width:135px;
+    padding:5px 15px 7px 15px;
+    border-radius:20px;
+    border:1px solid #000;
+    border-top:1px solid #000;
+    box-shadow:inset 0 1px 2px rgba(0,0,0,0.08);
+    float:right;
+    background:#FFF;
+}
+
+    div.input.focus {
+        border:1px solid #9ecbe2;
+        box-shadow:0 0 6px #abdcff, inset 0 1px 2px rgba(0,0,0,0.08);
+    }
+
+input#s {
+    width:100%;
+    border:0;
+    border-radius:20px;
+    background:#FFF;
+    height:16px;
+    color:#000;
+    text-shadow:0 1px 1px #fff;
+}
+
+    input#s:focus {
+        outline:none
+    }
+
+input#searchSubmit {
+    width:19px;
+    height:19px;
+    text-indent:-9999px;
+    overflow:hidden;
+    background:url(../images/search-icon.png) no-repeat;
+    border:0;
+    position:absolute;
+    top:7px; right:13px;
+    z-index:5;
+    display:none;
+    cursor:pointer;
+}
