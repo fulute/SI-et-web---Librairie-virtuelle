@@ -16,7 +16,7 @@ class Test extends CI_Controller
 	
 	public function index()
 	{
-		redirect(array('error', 'probleme'));
+		//redirect(array('error', 'probleme'));
 	}
 	
 	public function accueil()

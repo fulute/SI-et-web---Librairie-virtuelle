@@ -83,7 +83,7 @@ $config['language']	= "french"; //'english';
 | that require a character set to be provided.
 |
 */
-$config['charset'] = 'UTF-8';
+$config['charset'] = 'iso-8859-1'; //'UTF-8';
 
 /*
 |--------------------------------------------------------------------------

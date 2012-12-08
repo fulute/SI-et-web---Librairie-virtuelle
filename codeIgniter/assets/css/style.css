@@ -15,9 +15,10 @@ body {
 	margin: 0 auto;
 	top: 0px;
 	left: 0px;
+	background-color: pink !important;
 }
 
-#bandeau {
+#header {
 	position: absolute;
 	height: 146px;
 	width: 1000px;
@@ -60,7 +61,7 @@ body {
 	padding-right: 10px;
 }
 
-#menu_principal {
+#main_menu {
 	position: absolute;
 	top: 146px;
 	height: 50px;
@@ -75,7 +76,7 @@ body {
 	background-color: #FFF;
 }
 
-#menu_gauche {
+#left_menu {
 	position: absolute;
 	float: left;
 	top: 196px;
